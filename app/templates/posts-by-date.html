@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Link of CSS files -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/scrollcue.min.css">
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/dark-theme.css">
+        
+        <title>Aixio - Technology & AI Startup HTML Template</title>
+        <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    </head>
+    <body>
+
+       <!--  Preloader Start -->
+        <div class="preloader-area" id="preloader">
+            <div class="spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <!--  Preloader End -->
+
+        <!-- Theme Switcher Start -->
+        <div class="switch-theme-mode">
+            <label id="switch" class="switch">
+                <input type="checkbox" onchange="toggleTheme()" id="slider">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <!-- Theme Switcher End -->
+
+        <!-- Custom Cursor -->
+        <div class="cursor"><span class="cursor-text"></span></div>
+        <div class="cursor-inner"></div>
+
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                <!-- Navbar Start -->
+                <div class="navbar-area style-two position-relative" id="navbar">
+                    <div class="container-fluid">
+                        <div class="navbar-wrapper d-flex justify-content-between align-items-center">
+                            <a href="index.html" class="navbar-brand">
+                                <img src="assets/img/logo.png" alt="Logo" class="logo-light">
+                                <img src="assets/img/logo-white.png" alt="Logo" class="logo-dark">
+                            </a>
+                            <div class="menu-area mx-auto">
+                                <div class="overlay"></div>
+                                <nav class="menu">
+                                    <div class="menu-mobile-header">
+                                        <button type="button" class="menu-mobile-arrow bg-transparent border-0"><i class="ri-arrow-left-s-line"></i></button>
+                                        <div class="menu-mobile-title"></div>
+                                        <button type="button" class="menu-mobile-close bg-transparent border-0"><i class="ri-close-line"></i></button>
+                                    </div>
+                                    <ul class="menu-section p-0 mb-0 lh-1">
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0)">Home<i class="ri-arrow-down-s-fill"></i></a>
+                                            <ul class="menu-subs menu-column-1">
+                                                <li class="list-item">
+                                                    <a href="index.html">Home - AI SaaS Platform</a>
+                                                </li>
+                                                <li class="list-item">
+                                                    <a href="index-2.html">Home - AI Cyber Security Solutions</a>
+                                                </li>
+                                                <li class="list-item">
+                                                    <a href="index-3.html">Home - AI Robotics & Automation</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0)">Pages<i class="ri-arrow-down-s-fill"></i></a>
+                                            <ul class="menu-subs menu-column-1">
+                                                <li><a href="about-us.html">About Us</a></li>
+                                                <li class="menu-item-has-children">
+                                                    <a href="javascript:void(0)">Services<i class="ri-arrow-right-s-fill"></i></a>
+                                                    <ul class="menu-subs menu-column-1">
+                                                        <li><a href="services.html">Services</a></li>
+                                                        <li><a href="service-details.html">Service Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item-has-children">
+                                                    <a href="javascript:void(0)">Careers<i class="ri-arrow-right-s-fill"></i></a>
+                                                    <ul class="menu-subs menu-column-1">
+                                                        <li><a href="careers.html">Careers</a></li>
+                                                        <li><a href="career-single.html">Career Single</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="team.html">Team</a></li>
+                                                <li><a href="testimonials.html">Testimonials</a></li>
+                                                <li><a href="pricing-plan.html">Pricing Plan</a></li>
+                                                <li><a href="faq.html">FAQ</a></li>
+                                                <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                                <li><a href="error-404.html">Error 404</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0)">Projects<i class="ri-arrow-down-s-fill"></i></a>
+                                            <ul class="menu-subs menu-column-1">
+                                                <li><a href="projects.html">Projects</a></li>
+                                                <li><a href="project-single.html">Project Single</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0)">Shop<i class="ri-arrow-down-s-fill"></i></a>
+                                            <ul class="menu-subs menu-column-1">
+                                                <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
+                                                <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
+                                                <li><a href="shop-grid.html">Shop Grid</a></li>
+                                                <li><a href="product-single.html">Product Single</a></li>
+                                                <li><a href="cart.html">Cart</a></li>
+                                                <li><a href="wishlist.html">Wishlist</a></li>
+                                                <li><a href="checkout.html">Checkout</a></li>
+                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="register.html">Register</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0)" class="active">Blog<i class="ri-arrow-down-s-fill"></i></a>
+                                            <ul class="menu-subs menu-column-1">
+                                                <li class="menu-item-has-children"><a href="javascript:void(0)">Blog Layout<i class="ri-arrow-right-s-fill"></i></a>
+                                                    <ul class="menu-subs menu-column-1">
+                                                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                                        <li><a href="blog-grid.html">Blog Grid</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item-has-children"><a href="javascript:void(0)" >Blog Single Layout<i class="ri-arrow-right-s-fill"></i></a>
+                                                    <ul class="menu-subs menu-column-1">
+                                                        <li><a href="blog-single-left-sidebar.html">Blog Single Left Sidebar</a></li>
+                                                        <li><a href="blog-single-right-sidebar.html">Blog Single Right Sidebar</a></li>
+                                                        <li><a href="blog-single-no-sidebar.html">Blog Single No Sidebar</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item-has-children"><a href="javascript:void(0)" class="active">Others<i class="ri-arrow-right-s-fill"></i></a>
+                                                    <ul class="menu-subs menu-column-1">
+                                                        <li><a href="posts-by-author.html">Posts By Author</a></li>
+                                                        <li><a href="posts-by-date.html" class="active">Posts By Date</a></li>
+                                                        <li><a href="posts-by-category.html">Posts By Category</a></li>
+                                                        <li><a href="posts-by-tag.html">Posts By Tag</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="other-options d-flex flex-wrap align-items-center justify-content-end">
+                                <div class="option-item">
+                                    <div class="d-flex flex-wrap align-items-center">
+                                        <div class="mobile-options position-relative d-lg-none me-3">
+                                            <button class="dropdown-toggle  text-center bg-transparent border-0 p-0 transition" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                                <i class="ri-more-fill"></i>
+                                            </button>
+                                            <div class="dropdown-menu dropdown-menu-centered mobile-option-list top-1 border-0" data-bs-popper="static">
+                                                <a href="login.html" class="btn style-three fw-semibold position-relative round-oval">Get In Touch<span class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img src="assets/img/icons/right-arrow-white.svg" alt="Icon"></span></a>
+                                            </div>
+                                        </div>
+                                        <button  class="search-btn bg-transparent border-0 d-flex flex-wrap align-items-center dropdown-toggle text-center p-0 transition" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                                <img src="assets/img/icons/search.svg" alt="Search Icon">
+                                        </button>
+                                        <div class="search-dropdown dropdown-menu dropdown-menu-right top-1 border-0" data-bs-popper="static">
+                                             <form class="search-popup position-relative" action="#">
+                                                <input type="search" class="form-control text-para" placeholder="Search Here....">
+                                                <button type="submit" class="position-absolute top-0 end-0 h-100 border-0 bg-transparent d-flex flex-column align-items-center justify-content-center"><i class="ri-search-2-line"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="option-item d-lg-block d-none">
+                                    <a href="contact.html" class="btn style-three fw-semibold position-relative round-oval">Get In Touch<span class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img src="assets/img/icons/right-arrow-white.svg" alt="Icon"></span></a>
+                                </div>
+                                <div class="option-item d-lg-none">
+                                    <button type="button" class="menu-mobile-trigger">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navbar End -->
+
+                <!-- Breadcrumb Start -->
+                <div class="breadcrumb-area bg-f round-20 position-relative z-1">
+                    <div class="container text-center">
+                        <ul class="br-menu text-center bg_secondary d-inline-block list-unstyled mb-15">
+                            <li class="position-relative fs-13 fw-semibold ls-1 d-inline-block"><a href="index.html">HOME</a></li>
+                            <li class="position-relative fs-13 fw-semibold ls-1 d-inline-block">POST DATE</li>
+                        </ul>
+                        <h2 class="section-title style-one fw-medium font-secondary text-black text-center mb-6">Post Date</h2>
+                    </div>
+                </div>
+                <!-- Breadcrumb End -->
+
+                <!-- Blog Section Start -->
+                <div class="container style-one ptb-130">
+                    <div class="row">
+                        <div class="col-xl-8">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6" data-cue="slideInUp">
+                                    <div class="blog-card style-one img-hover-wrap round-10 mb-30">
+                                        <div class="blog-img position-relative img-hover overflow-hidden round-10">
+                                            <img src="assets/img/blog/blog-10.jpg" alt="Image" class="transition round-10">
+                                        </div>
+                                        <div class="blog-info">
+                                            <div class="d-flex flex-wrap align-items-center justify-content-between">
+                                                <a class="blog-category fs-15 fw-medium d-inline-block round-oval" href="blog-left-sidebar.html">Startup</a>
+                                                <ul class="blog-metainfo list-unstyled">
+                                                    <li>By <a href="posts-by-author.html">Admin</a></li>
+                                                    <li><a href="posts-by-date.html">12 Aug, 2025</a></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="fs-20 fw-semibold"><a href="blog-single-right-sidebar.html" class="text-black link-hover-primary transition">How AI Automation Is Reshaping The Future Of Business Operations</a></h3>
+                                            <a href="blog-single-right-sidebar.html" class="link style-two fw-semibold">Read More<i class="ri-arrow-right-line"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" data-cue="slideInUp">
+                                    <div class="blog-card style-one img-hover-wrap round-10 mb-30">
+                                        <div class="blog-img position-relative img-hover overflow-hidden round-10">
+                                            <img src="assets/img/blog/blog-2.jpg" alt="Image" class="transition round-10">
+                                        </div>
+                                        <div class="blog-info">
+                                            <div class="d-flex flex-wrap align-items-center justify-content-between">
+                                                <a class="blog-category fs-15 fw-medium d-inline-block round-oval" href="blog-left-sidebar.html">Technology</a>
+                                                <ul class="blog-metainfo list-unstyled">
+                                                    <li>By <a href="posts-by-author.html">Admin</a></li>
+                                                    <li><a href="posts-by-date.html">16 Aug, 2025</a></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="fs-20 fw-semibold"><a href="blog-single-right-sidebar.html" class="text-black link-hover-primary transition">Top 7 Ways SaaS Companies Benefit From Predictive Analytics</a></h3>
+                                            <a href="blog-single-right-sidebar.html" class="link style-two fw-semibold">Read More<i class="ri-arrow-right-line"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" data-cue="slideInUp">
+                                    <div class="blog-card style-one img-hover-wrap round-10 mb-30">
+                                        <div class="blog-img position-relative img-hover overflow-hidden round-10">
+                                            <img src="assets/img/blog/blog-11.jpg" alt="Image" class="transition round-10">
+                                        </div>
+                                        <div class="blog-info">
+                                            <div class="d-flex flex-wrap align-items-center justify-content-between">
+                                                <a class="blog-category fs-15 fw-medium d-inline-block round-oval" href="blog-left-sidebar.html">Agency</a>
+                                                <ul class="blog-metainfo list-unstyled">
+                                                    <li>By <a href="posts-by-author.html">Admin</a></li>
+                                                    <li><a href="posts-by-date.html">22 Aug, 2025</a></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="fs-20 fw-semibold"><a href="blog-single-right-sidebar.html" class="text-black link-hover-primary transition">Scaling Smarter: How Startups Use AI To Accelerate Business Growth</a></h3>
+                                        <a href="blog-single-right-sidebar.html" class="link style-two fw-semibold">Read More<i class="ri-arrow-right-line"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" data-cue="slideInUp">
+                                    <div class="blog-card style-one img-hover-wrap round-10 mb-30">
+                                        <div class="blog-img position-relative img-hover overflow-hidden round-10">
+                                            <img src="assets/img/blog/blog-12.jpg" alt="Image" class="transition round-10">
+                                        </div>
+                                        <div class="blog-info">
+                                            <div class="d-flex flex-wrap align-items-center justify-content-between">
+                                                <a class="blog-category fs-15 fw-medium d-inline-block round-oval" href="blog-left-sidebar.html">Robotics</a>
+                                                <ul class="blog-metainfo list-unstyled">
+                                                    <li>By <a href="posts-by-author.html">Admin</a></li>
+                                                    <li><a href="posts-by-date.html">26 Aug, 2025</a></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="fs-20 fw-semibold"><a href="blog-single-right-sidebar.html" class="text-black link-hover-primary transition">How Predictive AI Is Transforming Decision-Making In Business</a></h3>
+                                        <a href="blog-single-right-sidebar.html" class="link style-two fw-semibold">Read More<i class="ri-arrow-right-line"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" data-cue="slideInUp">
+                                    <div class="blog-card style-one img-hover-wrap round-10 mb-30">
+                                        <div class="blog-img position-relative img-hover overflow-hidden round-10">
+                                            <img src="assets/img/blog/blog-13.jpg" alt="Image" class="transition round-10">
+                                        </div>
+                                        <div class="blog-info">
+                                            <div class="d-flex flex-wrap align-items-center justify-content-between">
+                                                <a class="blog-category fs-15 fw-medium d-inline-block round-oval" href="blog-left-sidebar.html">Agency</a>
+                                                <ul class="blog-metainfo list-unstyled">
+                                                    <li>By <a href="posts-by-author.html">Admin</a></li>
+                                                    <li><a href="posts-by-date.html">27 Aug, 2025</a></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="fs-20 fw-semibold"><a href="blog-single-right-sidebar.html" class="text-black link-hover-primary transition">Building Trust In AI: Transparency, Accuracy, And Accountability</a></h3>
+                                        <a href="blog-single-right-sidebar.html" class="link style-two fw-semibold">Read More<i class="ri-arrow-right-line"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" data-cue="slideInUp">
+                                    <div class="blog-card style-one img-hover-wrap round-10 mb-30">
+                                        <div class="blog-img position-relative img-hover overflow-hidden round-10">
+                                            <img src="assets/img/blog/blog-14.jpg" alt="Image" class="transition round-10">
+                                        </div>
+                                        <div class="blog-info">
+                                            <div class="d-flex flex-wrap align-items-center justify-content-between">
+                                                <a class="blog-category fs-15 fw-medium d-inline-block round-oval" href="blog-left-sidebar.html">Technology</a>
+                                                <ul class="blog-metainfo list-unstyled">
+                                                    <li>By <a href="posts-by-author.html">Admin</a></li>
+                                                    <li><a href="posts-by-date.html">28 Aug, 2025</a></li>
+                                                </ul>
+                                            </div>
+                                            <h3 class="fs-20 fw-semibold"><a href="blog-single-right-sidebar.html" class="text-black link-hover-primary transition">From Data To Action: The Power Of Machine Learning In Forecasting</a></h3>
+                                        <a href="blog-single-right-sidebar.html" class="link style-two fw-semibold">Read More<i class="ri-arrow-right-line"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination-area d-flex align-items-center justify-content-center mt-xl-5">
+                                <span class="page-numbers d-flex flex-column align-items-center justify-content-center rounded-circle" aria-current="page"><img src="assets/img/icons/left-arrow-blue.svg" alt="Icon"></span>
+                                <span class="page-numbers current d-flex flex-column align-items-center justify-content-center rounded-circle" aria-current="page">01</span>
+                                <a href="blog-right-sidebar.html" class="page-numbers d-flex flex-column align-items-center justify-content-center rounded-circle">02</a>
+                                <a href="blog-right-sidebar.html" class="page-numbers d-flex flex-column align-items-center justify-content-center rounded-circle">03</a>
+                                <a href="blog-right-sidebar.html" class="page-numbers d-flex flex-column align-items-center justify-content-center rounded-circle"><img src="assets/img/icons/right-arrow-blue-2.svg" alt="Icon"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 ps-xxl-5">
+                            <aside class="sidebar mt-lg-50">
+                                <form action="#" class="search-widget position-relative mb-30">
+                                    <input type="search" placeholder="Search" class="fw-medium w-100 ht-56 bg_primary border-0 round-5 text-white outline-0">
+                                    <button class="position-absolute bg-transparent position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center border-0"><img src="assets/img/icons/search-white.svg" alt="Icon"></button>
+                                </form>
+                                <div class="sidebar-widget category-widget round-5">
+                                    <h3 class="sidebar-widget-title fs-18 fw-semibold text-black mb-20">Categories</h3>
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="posts-by-category.html" class="position-relative">News <img src="assets/img/icons/right-arrow-blue.svg" alt="Icon"></a></li>
+                                        <li><a href="posts-by-category.html" class="position-relative">Robotics <img src="assets/img/icons/right-arrow-blue.svg" alt="Icon"></a></li>
+                                        <li><a href="posts-by-category.html" class="position-relative">Machine Learning <img src="assets/img/icons/right-arrow-blue.svg" alt="Icon"></a></li>
+                                        <li><a href="posts-by-category.html" class="position-relative">Agriculture <img src="assets/img/icons/right-arrow-blue.svg" alt="Icon"></a></li>
+                                        <li><a href="posts-by-category.html" class="position-relative">Real Time Prediction <img src="assets/img/icons/right-arrow-blue.svg" alt="Icon"></a></li>
+                                        <li><a href="posts-by-category.html" class="position-relative">Module Evolution <img src="assets/img/icons/right-arrow-blue.svg" alt="Icon"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="sidebar-widget round-5">
+                                    <h3 class="sidebar-widget-title fs-18 fw-semibold text-black mb-20">Recent Posts</h3>
+                                     <div class="rp-post-wrap">
+                                        <div class="rp-post-card d-flex flex-wrap align-items-center">
+                                            <div class="rp-post-img">
+                                                <img src="assets/img/blog/post-thumb-1.jpg" alt="Post Thumb">
+                                            </div>
+                                            <div class="rp-post-info">
+                                                <a href="posts-by-date.html" class="fs-15 fw-medium text_primary   hover-text-title d-block mb-1">19 Aug, 2025</a>
+                                                <h5 class="fs-15 fw-semibold mb-0 pe-xxl-4"><a href="blog-single-right-sidebar.html" class="text-black link-hover-primary transition">How Predictive AI Is Transforming Decision-Making In Business</a></h5>
+                                            </div>
+                                        </div>
+                                        <div class="rp-post-card d-flex flex-wrap align-items-center">
+                                            <div class="rp-post-img">
+                                                <img src="assets/img/blog/post-thumb-2.jpg" alt="Post Thumb">
+                                            </div>
+                                            <div class="rp-post-info">
+                                                <a href="posts-by-date.html" class="fs-15 fw-medium text_primary   hover-text-title d-block mb-1">16 Aug, 2025</a>
+                                                <h5 class="fs-15 fw-semibold mb-0 pe-xxl-4"><a href="blog-single-right-sidebar.html" class="text-black link-hover-primary transition">Building Trust In AI: Transparency, Accuracy & Accountability</a></h5>
+                                            </div>
+                                        </div>
+                                        <div class="rp-post-card d-flex flex-wrap align-items-center">
+                                            <div class="rp-post-img">
+                                                <img src="assets/img/blog/post-thumb-3.jpg" alt="Post Thumb">
+                                            </div>
+                                            <div class="rp-post-info">
+                                                <a href="posts-by-date.html" class="fs-15 fw-medium text_primary   hover-text-title d-block mb-1">22 Aug, 2025</a>
+                                                <h5 class="fs-15 fw-semibold mb-0 pe-xxl-5"><a href="blog-single-right-sidebar.html" class="text-black link-hover-primary transition">From Data To Action: The Power Of Machine Learning</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sidebar-widget tags-widget round-5">
+                                    <h3 class="sidebar-widget-title fs-18 fw-semibold text-title mb-22">Tags</h3>
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="posts-by-tag.html">AI News</a></li>
+                                        <li><a href="posts-by-tag.html">Analysis</a></li>
+                                        <li><a href="posts-by-tag.html">ChatGPT</a></li>
+                                        <li><a href="posts-by-tag.html">Neural</a></li>
+                                        <li><a href="posts-by-tag.html">AI Model</a></li>
+                                        <li><a href="posts-by-tag.html">Marketing</a></li>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Details Section End -->
+
+                <!-- Footer Section Start -->
+                <footer class="footer-area style-one bg-black position-relative z-1 pt-130">
+                    <div class="container style-one">
+                        <div class="row justify-content-center mb-40">
+                            <div class="col-lg-2 col-md-6">
+                                <div class="footer-widget mb-30">
+                                    <a href="index.html" class="logo"><img src="assets/img/logo-white.png" alt="Logo"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="footer-widget mb-30 ps-xxl-5 ms-xxl-1">
+                                    <h3 class="footer-widget-title text-white fs-18 fw-semibold">Quick Links</h3>
+                                    <ul class="footer-menu list-unstyled mb-0">
+                                        <li><a href="about-us.html">Features</a></li>
+                                        <li><a href="about-us.html">About</a></li>
+                                        <li><a href="testimonials.html">Testimonials</a></li>
+                                        <li><a href="pricing-plan.html">Pricing</a></li>
+                                        <li><a href="blog-right-sidebar.html">Blog</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 ps-xxl-0 pe-xxl-5 pe-lg-4">
+                                <div class="footer-widget mb-30">
+                                    <h3 class="footer-widget-title text-white fs-18 fw-semibold">Address</h3>
+                                    <ul class="contact-info list-unstyled mb-0">
+                                        <li class="position-relative">
+                                            <img src="assets/img/icons/pin-small.svg" alt="Icon">
+                                            <span class="text-white fw-medium">Address :</span> 952 Bad Hill St, Asheville, NC 28803, USA
+                                        </li>
+                                        <li class="position-relative">
+                                            <img src="assets/img/icons/mail-small.svg" alt="Icon">
+                                            <span class="text-white fw-medium d-block">Email :</span>
+                                            <a href="mailto:contact@aixio.com">contact@aixio.com</a>
+                                        </li>
+                                        <li class="position-relative">
+                                            <img src="assets/img/icons/phone-small.svg" alt="Icon">
+                                            <span class="text-white fw-medium d-block">Phone :</span> 
+                                            <a href="tel:96768678869">+96 76867 8869</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 ps-xxl-4 pe-xxl-1">
+                                <div class="footer-widget mb-30">
+                                    <h3 class="text-white fs-20 font-secondary fw-medium mb-12">Subscribe To Our Newsletter</h3>
+                                    <form action="#" class="newsletter-form position-relative">
+                                        <input type="email" class="fs-15 w-100 bg-transparent text-white outline-0" placeholder="Enter Your Email">
+                                        <button class="position-absolute bg-transparent border-0 end-0"><img src="assets/img/icons/plane-small.svg" alt="Icon"></button>
+                                    </form>
+                                    <div class="post-share d-flex flex-wrap align-items-center">
+                                        <span class="text-white fw-medium me-2">Follow Us :</span>
+                                        <ul class="social-profile style-one list-unstyled mb-0">
+                                            <li><a href="https://www.facebook.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-facebook-fill"></i></a></li>
+                                            <li><a href="https://x.com/?lang=en" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-twitter-x-line"></i></a></li>
+                                            <li><a href="https://www.instagram.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-instagram-line"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-linkedin-fill"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom position-relative overflow-hidden z-1">
+                        <div class="container-fluid position-relative px-xxl-4">
+                            <img src="assets/img/logo-large.png" alt="Logo">
+                            <p class="copyright-text position-absolute bg_primary round-oval d-inline-block text-white text-center mb-0"><i class="ri-copyright-line"></i><span class="text_secondary fw-semibold">Aixio </span> is Proudly Owned by <a href="https://hibotheme.com" target="_blank" class="link style-one fw-semibold">HiboTheme</a></p>
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer End -->
+
+            </div>
+        </div>
+        <!-- Back to Top -->
+        <div id="progress-wrap" class="progress-wrap style-one">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+              <path id="progress-path" d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+            </svg>
+        </div>
+
+        <!-- Link of JS files -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/megamenu.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/fslightbox.js"></script>
+        <script src="assets/js/gsap.min.js"></script>
+        <script src="assets/js/scrollTrigger.min.js"></script>
+        <script src="assets/js/lenis.min.js"></script>
+        <script src="assets/js/scrollToPlugin.js"></script>
+        <script src="assets/js/SplitText.min.js"></script>
+        <script src="assets/js/customEase.js"></script>
+        <script src="assets/js/scrollcue.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

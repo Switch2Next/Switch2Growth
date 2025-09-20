@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Link of CSS files -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/scrollcue.min.css">
+        <link rel="stylesheet" href="assets/css/remixicon.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/dark-theme.css">
+        
+        <title>Aixio - Technology & AI Startup HTML Template</title>
+        <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    </head>
+    <body>
+
+       <!--  Preloader Start -->
+        <div class="preloader-area" id="preloader">
+            <div class="spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <!--  Preloader End -->
+
+        <!-- Theme Switcher Start -->
+        <div class="switch-theme-mode">
+            <label id="switch" class="switch">
+                <input type="checkbox" onchange="toggleTheme()" id="slider">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <!-- Theme Switcher End -->
+
+        <!-- Custom Cursor -->
+        <div class="cursor"><span class="cursor-text"></span></div>
+        <div class="cursor-inner"></div>
+
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                <!-- Navbar Start -->
+                <div class="navbar-area style-two position-relative" id="navbar">
+                    <div class="container-fluid">
+                        <div class="navbar-wrapper d-flex justify-content-between align-items-center">
+                            <a href="index.html" class="navbar-brand">
+                                <img src="assets/img/logo.png" alt="Logo" class="logo-light">
+                                <img src="assets/img/logo-white.png" alt="Logo" class="logo-dark">
+                            </a>
+                            <div class="menu-area mx-auto">
+                                <div class="overlay"></div>
+                                <nav class="menu">
+                                    <div class="menu-mobile-header">
+                                        <button type="button" class="menu-mobile-arrow bg-transparent border-0"><i class="ri-arrow-left-s-line"></i></button>
+                                        <div class="menu-mobile-title"></div>
+                                        <button type="button" class="menu-mobile-close bg-transparent border-0"><i class="ri-close-line"></i></button>
+                                    </div>
+                                    <ul class="menu-section p-0 mb-0 lh-1">
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0)">Home<i class="ri-arrow-down-s-fill"></i></a>
+                                            <ul class="menu-subs menu-column-1">
+                                                <li class="list-item">
+                                                    <a href="index.html">Home - AI SaaS Platform</a>
+                                                </li>
+                                                <li class="list-item">
+                                                    <a href="index-2.html">Home - AI Cyber Security Solutions</a>
+                                                </li>
+                                                <li class="list-item">
+                                                    <a href="index-3.html">Home - AI Robotics & Automation</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0)">Pages<i class="ri-arrow-down-s-fill"></i></a>
+                                            <ul class="menu-subs menu-column-1">
+                                                <li><a href="about-us.html">About Us</a></li>
+                                                <li class="menu-item-has-children">
+                                                    <a href="javascript:void(0)">Services<i class="ri-arrow-right-s-fill"></i></a>
+                                                    <ul class="menu-subs menu-column-1">
+                                                        <li><a href="services.html">Services</a></li>
+                                                        <li><a href="service-details.html">Service Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item-has-children">
+                                                    <a href="javascript:void(0)">Careers<i class="ri-arrow-right-s-fill"></i></a>
+                                                    <ul class="menu-subs menu-column-1">
+                                                        <li><a href="careers.html">Careers</a></li>
+                                                        <li><a href="career-single.html">Career Single</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="team.html">Team</a></li>
+                                                <li><a href="testimonials.html">Testimonials</a></li>
+                                                <li><a href="pricing-plan.html">Pricing Plan</a></li>
+                                                <li><a href="faq.html">FAQ</a></li>
+                                                <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                                <li><a href="error-404.html">Error 404</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0)">Projects<i class="ri-arrow-down-s-fill"></i></a>
+                                            <ul class="menu-subs menu-column-1">
+                                                <li><a href="projects.html">Projects</a></li>
+                                                <li><a href="project-single.html">Project Single</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0)" class="active">Shop<i class="ri-arrow-down-s-fill"></i></a>
+                                            <ul class="menu-subs menu-column-1">
+                                                <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
+                                                <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
+                                                <li><a href="shop-grid.html">Shop Grid</a></li>
+                                                <li><a href="product-single.html" class="active">Product Single</a></li>
+                                                <li><a href="cart.html">Cart</a></li>
+                                                <li><a href="wishlist.html">Wishlist</a></li>
+                                                <li><a href="checkout.html">Checkout</a></li>
+                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="register.html">Register</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0)">Blog<i class="ri-arrow-down-s-fill"></i></a>
+                                            <ul class="menu-subs menu-column-1">
+                                                <li class="menu-item-has-children"><a href="javascript:void(0)">Blog Layout<i class="ri-arrow-right-s-fill"></i></a>
+                                                    <ul class="menu-subs menu-column-1">
+                                                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                                        <li><a href="blog-grid.html">Blog Grid</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item-has-children"><a href="javascript:void(0)">Blog Single Layout<i class="ri-arrow-right-s-fill"></i></a>
+                                                    <ul class="menu-subs menu-column-1">
+                                                        <li><a href="blog-single-left-sidebar.html">Blog Single Left Sidebar</a></li>
+                                                        <li><a href="blog-single-right-sidebar.html">Blog Single Right Sidebar</a></li>
+                                                        <li><a href="blog-single-no-sidebar.html">Blog Single No Sidebar</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item-has-children"><a href="javascript:void(0)">Others<i class="ri-arrow-right-s-fill"></i></a>
+                                                    <ul class="menu-subs menu-column-1">
+                                                        <li><a href="posts-by-author.html">Posts By Author</a></li>
+                                                        <li><a href="posts-by-date.html">Posts By Date</a></li>
+                                                        <li><a href="posts-by-category.html">Posts By Category</a></li>
+                                                        <li><a href="posts-by-tag.html">Posts By Tag</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="other-options d-flex flex-wrap align-items-center justify-content-end">
+                                <div class="option-item">
+                                    <div class="d-flex flex-wrap align-items-center">
+                                        <div class="mobile-options position-relative d-lg-none me-3">
+                                            <button class="dropdown-toggle  text-center bg-transparent border-0 p-0 transition" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                                <i class="ri-more-fill"></i>
+                                            </button>
+                                            <div class="dropdown-menu dropdown-menu-centered mobile-option-list top-1 border-0" data-bs-popper="static">
+                                                <a href="login.html" class="btn style-three fw-semibold position-relative round-oval">Get In Touch<span class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img src="assets/img/icons/right-arrow-white.svg" alt="Icon"></span></a>
+                                            </div>
+                                        </div>
+                                        <button  class="search-btn bg-transparent border-0 d-flex flex-wrap align-items-center dropdown-toggle text-center p-0 transition" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                                <img src="assets/img/icons/search.svg" alt="Search Icon">
+                                        </button>
+                                        <div class="search-dropdown dropdown-menu dropdown-menu-right top-1 border-0" data-bs-popper="static">
+                                             <form class="search-popup position-relative" action="#">
+                                                <input type="search" class="form-control text-para" placeholder="Search Here....">
+                                                <button type="submit" class="position-absolute top-0 end-0 h-100 border-0 bg-transparent d-flex flex-column align-items-center justify-content-center"><i class="ri-search-2-line"></i></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="option-item d-lg-block d-none">
+                                    <a href="contact.html" class="btn style-three fw-semibold position-relative round-oval">Get In Touch<span class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img src="assets/img/icons/right-arrow-white.svg" alt="Icon"></span></a>
+                                </div>
+                                <div class="option-item d-lg-none">
+                                    <button type="button" class="menu-mobile-trigger">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navbar End -->
+
+                <!-- Breadcrumb Start -->
+                <div class="breadcrumb-area bg-f round-20 position-relative z-1">
+                    <div class="container text-center">
+                        <ul class="br-menu text-center bg_secondary d-inline-block list-unstyled mb-15">
+                            <li class="position-relative fs-13 fw-semibold ls-1 d-inline-block"><a href="index.html">HOME</a></li>
+                            <li class="position-relative fs-13 fw-semibold ls-1 d-inline-block"><a href="shop-right-sidebar.html">SHOP</a></li>
+                            <li class="position-relative fs-13 fw-semibold ls-1 d-inline-block">PRODUCT SINGLE</li>
+                        </ul>
+                        <h2 class="section-title style-one fw-medium font-secondary text-black text-center mb-6">Product Single</h2>
+                    </div>
+                </div>
+                <!-- Breadcrumb End -->
+
+                <!-- Product Details Section Start -->
+                <div class="container style-one ptb-130">
+                    <div class="row">
+                        <div class="col-xl-10 offset-xl-1">
+                            <div class="row align-items-center mb-70">
+                                <div class="col-lg-6 mb-md-30 pe-xxl-1">
+                                    <a data-fslightbox="gallery" href="assets/img/products/single-product-1.jpg" class="single-product-img round-10">
+                                        <img src="assets/img/products/single-product-1.jpg" alt="Image" class="round-10">
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 ps-xxl-5">
+                                    <div class="single-product-info ms-xxl-2">
+                                        <h1 class="fs-24 fw-semibold w-xxl-75 mb-6">Half robot panda</h1>
+                                        <p class="product-price fw-semibold text_primary mb-12">$30.00</p>
+                                        <ul class="rating list-unstyled mb-0">
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                            <li><i class="ri-star-fill"></i></li>
+                                        </ul>
+                                        <p class="product-desc">Unlock accurate, real-time predictions powered by machine to optimize your operations and stay ahead of trends.</p>
+                                        <div class="product-quantity">
+                                            <span class="text-title fw-medium fs-15 d-block mb-8">Quantity</span>
+                                            <div class="d-flex flex-wrap align-items-center">
+                                                <div class="v-counter bg-transparent d-flex flex-wrap align-items-center justify-content-between">
+                                                    <button class="minusBtn bg-transparent border-0">
+                                                    </button>
+                                                    <input type="text" size="25" value="1" class="count bg-transparent">
+                                                    <button class="plusBtn bg-transparent border-0">
+                                                    </button>
+                                                </div>
+                                                <button class="add-to-cart btn style-six fw-semibold position-relative round-oval" type="submit">Add To Cart</button>
+                                                <button class="add-to-wishlist border-0 d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-heart-line"></i></button>
+                                            </div>
+                                        </div>
+                                        <ul class="shop-features list-unstyled">
+                                            <li><span class="text-black me-1">Category:</span> <a href="shop-grid.html" class="text-para hover-text-primary">Gifts</a></li>
+                                            <li><span class="text-black me-1">Tags:</span><a href="shop-grid.html" class="text-para hover-text-primary">System</a>, <a href="shop-grid.html" class="text-para hover-text-primary">AI</a></li>
+                                            <li><span class="text-black me-1">SKU:</span> Coat-30751156 </li></li>
+                                        </ul>
+                                        <ul class="single-product-features list-unstyled">
+                                            <li>
+                                                <b class="fw-medium text-black d-block">Material & Care</b>
+                                                <span class="d-block">100% Genuine</span>
+                                                <span class="d-block">Machine-wash</span>
+                                            </li>
+                                        </ul>
+                                        <div class="post-share d-flex flex-wrap align-items-center">
+                                            <span class="fs-15 fw-medium text-title me-2">Follow Us:</span>
+                                            <ul class="social-profile style-four list-unstyled mb-0">
+                                                <li><a href="https://www.facebook.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-facebook-fill"></i></a></li>
+                                                <li><a href="https://x.com/?lang=en" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-twitter-x-line"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-linkedin-fill"></i></a></li>
+                                                <li><a href="https://www.instagram.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-instagram-line"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="nav nav-tabs list-unstyled product-tablist d-flex align-items-center justify-content-start w-100 mb-20" role="tablist">
+                                <li class="nav-item border-0">
+                                    <button class="nav-link border-0 active" data-bs-toggle="tab" data-bs-target="#product_desc" type="button" role="tab">Description</button>
+                                </li>
+                                <li class="nav-item border-0">
+                                    <button class="nav-link border-0" data-bs-toggle="tab" data-bs-target="#product_add_info" type="button" role="tab">Additional Information</button>
+                                </li>
+                                <li class="nav-item border-0">
+                                    <button class="nav-link border-0" data-bs-toggle="tab" data-bs-target="#product_review" type="button" role="tab">Reviews(2)</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content product-tab-content">
+                                <div class="tab-pane fade show active" id="product_desc" role="tabpanel">
+                                    <p>Aixio Predict is a powerful, cloud-based AI platform that transforms your business data into accurate, real-time forecasts. Built for decision-makers, it uses machine learning to help you anticipate demand, minimize risk, and respond to changes faster than ever. Whether you're in retail, finance, logistics, or healthcare, Aixio Predict makes advanced forecasting accessible—no data science team required.</p>
+                                    <p class="blur-text"></p>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="mb-3"><span class="text-title fw-medium me-2">Real Time Predictions:</span>Get live insights using up-to-date data for faster decisions.</li>
+                                        <li class="mb-3"><span class="text-title fw-medium me-2">High Accuracy Forecasting:</span> Advanced ML models ensure precision in demand, trends, and risk analysis.</li>
+                                        <li class="mb-3"><span class="text-title fw-medium me-2">Customizable Dashboards:</span>Visualize key metrics and prediction outcomes tailored to your business.</li>
+                                        <li class="mb-3"><span class="text-title fw-medium me-2">Easy API Integration:</span>Seamlessly connects with your existing systems (ERP, CRM, cloud databases).</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade" id="product_add_info" role="tabpanel">
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque </p>
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="mb-3"><span class="text-title fw-medium me-2">Flexibility:</span>Learn anytime, anywhere, at your own pace.</li>
+                                        <li class="mb-3"><span class="text-title fw-medium me-2">Affordability:</span> Save money on travel, accommodation, and tuition fees.</li>
+                                        <li class="mb-3"><span class="text-title fw-medium me-2">Diverse Courses:</span>Access a wide range of subjects from top institutions.</li>
+                                        <li class="mb-3"><span class="text-title fw-medium me-2">Global Networking:</span>Connect with instructors and learners worldwide.</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane fade mt-4" id="product_review" role="tabpanel">
+                                    <div class="comment-item-wrap mb-35">
+                                        <div class="comment-item d-flex flex-wrap">
+                                            <div class="comment-author-img round-5">
+                                                <img src="assets/img/blog/avatar-1.jpg" alt="Image" class="round-5">
+                                            </div>
+                                            <div class="comment-author-info">
+                                                <h5 class="fs-16 fw-semibold font-primary text-title mb-1">Sarah Wilson</h5>
+                                                <ul class="rating list-unstyled d-flex align-items-center ms-0 mb-10">
+                                                    <li><i class="ri-star-fill"></i></li>
+                                                    <li><i class="ri-star-fill"></i></li>
+                                                    <li><i class="ri-star-fill"></i></li>
+                                                    <li><i class="ri-star-fill"></i></li>
+                                                    <li><i class="ri-star-fill"></i></li>
+                                                </ul>
+                                                <p class="comment-text mb-0">Business owners face increasing pressure to manage cash flow, reduce tax burdens, and plan for sustainable growth. Whether you're just launching your business or scaling an existing operation, making the right financial moves</p>
+                                            </div>
+                                        </div>
+                                        <div class="comment-item d-flex flex-wrap">
+                                            <div class="comment-author-img round-5">
+                                            <img src="assets/img/blog/avatar-3.jpg" alt="Image" class="round-5">
+                                            </div>
+                                            <div class="comment-author-info">
+                                                <h5 class="fs-16 fw-semibold font-primary text-title mb-1">Machel Vaun</h5>
+                                                <ul class="rating list-unstyled d-flex align-items-center ms-0 mb-10">
+                                                    <li><i class="ri-star-fill"></i></li>
+                                                    <li><i class="ri-star-fill"></i></li>
+                                                    <li><i class="ri-star-fill"></i></li>
+                                                    <li><i class="ri-star-fill"></i></li>
+                                                    <li><i class="ri-star-fill"></i></li>
+                                                </ul>
+                                                <p class="comment-text mb-0">This course is a very applicable. Professor Ng explains precisely each algorithm and even tries to give an intuition for mathematical and statistic concepts behind each algorithm. Thank you very much.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comment-form-box round-10">
+                                        <form action="#" class="comment-form style-one round-10" id="cmt-form">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <h3 class="fs-20 text-title mb-1">Add A Review</h3>
+                                                    <p class="mb-15">Your email address will not be published. Required fields are marked *</p>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group mb-15">
+                                                        <span class="fw-medium d-block text-title">Rate this item</span>
+                                                        <div class="add-star-rating mt-1">
+                                                            <input type="radio" id="star1" name="rating" value="1"><label for="star1"></label>
+                                                            <input type="radio" id="star2" name="rating" value="2"><label for="star2"></label>
+                                                            <input type="radio" id="star3" name="rating" value="3"><label for="star3"></label>
+                                                            <input type="radio" id="star4" name="rating" value="4"><label for="star4"></label>
+                                                            <input type="radio" id="star5" name="rating" value="5"><label for="star5"></label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group position-relative mb-20">
+                                                        <input type="text" required class="w-100 ht-52 round-5 bg-white text-para border-0" placeholder="Name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group mb-20">
+                                                        <input type="email" placeholder="Email" required class="w-100 ht-52 round-5 bg-white text-para border-0">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-group mb-20">
+                                                        <textarea name="messages" id="messages" cols="30" rows="10" placeholder="Comment"  class="w-100 round-20 bg-white text-para border-0 resize-0"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-check checkbox style-two mb-25">
+                                                        <input class="form-check-input" type="checkbox" id="test_2"
+                                                        >
+                                                        <label class="form-check-label" for="test_2">
+                                                            Save my name, email, and website in this browser for the next time I comment.
+                                                        </label>
+                                                    </div>
+                                                    <div class="col-xl-5 col-md-6">
+                                                        <button class="btn style-three fw-semibold position-relative round-oval" type="submit">Post A Review<span class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img src="assets/img/icons/right-arrow-white.svg" alt="Icon"></span></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Details Section End -->
+
+                <!-- Related products Section Start -->
+                <div class="container style-one pb-100">
+                    <h2 class="section-title style-one text-title fw-medium font-secondary mb-30">Related Products</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-xl-4 col-md-6">
+                            <div class="product-card style-one img-hover-wrap mb-30">
+                                <div class="product-img position-relative img-hover overflow-hidden z-1 round-10">
+                                    <img src="assets/img/products/product-1.jpg" alt="Image" class="round-10 transition">
+                                    <div class="product-action d-flex flex-wrap align-items-center justify-content-center">
+                                        <a href="product-single.html" class="btn style-seven fw-semibold position-relative round-oval" type="submit">Shop Now<span class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img src="assets/img/icons/right-arrow-black.svg" alt="Icon"></span></a>
+                                        <button class="add-to-cart border-0 d-flex flex-column align-items-center justify-content-center rounded-circle text-white fs-18"><i class="ri-shopping-cart-line"></i></button>
+                                        <button class="add-to-wishlist border-0 d-flex flex-column align-items-center justify-content-center rounded-circle text-white fs-18"><i class="ri-poker-hearts-line"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product-info d-flex flex-wrap justify-content-between">
+                                    <div class="product-title">
+                                        <h3 class="fs-18 fw-semibold mb-0"><a href="product-single.html" class="text-title link-hover-primary">Orange eyes</a></h3>
+                                        <span class="text_primary fw-semibold">$20.00</span>
+                                    </div>
+                                    <ul class="rating list-unstyled mb-0">
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div class="product-card style-one img-hover-wrap mb-30">
+                                <div class="product-img position-relative img-hover overflow-hidden z-1 round-10">
+                                    <img src="assets/img/products/product-3.jpg" alt="Image" class="round-10 transition">
+                                    <div class="product-action d-flex flex-wrap align-items-center justify-content-center">
+                                        <a href="product-single.html" class="btn style-seven fw-semibold position-relative round-oval" type="submit">Shop Now<span class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img src="assets/img/icons/right-arrow-black.svg" alt="Icon"></span></a>
+                                        <button class="add-to-cart border-0 d-flex flex-column align-items-center justify-content-center rounded-circle text-white fs-18"><i class="ri-shopping-cart-line"></i></button>
+                                        <button class="add-to-wishlist border-0 d-flex flex-column align-items-center justify-content-center rounded-circle text-white fs-18"><i class="ri-poker-hearts-line"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product-info d-flex flex-wrap justify-content-between">
+                                    <div class="product-title">
+                                        <h3 class="fs-18 fw-semibold mb-0"><a href="product-single.html" class="text-title link-hover-primary">Futuristic man</a></h3>
+                                        <span class="text_primary fw-semibold">$50.00</span>
+                                    </div>
+                                    <ul class="rating list-unstyled mb-0">
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div class="product-card style-one img-hover-wrap mb-30">
+                                <div class="product-img position-relative img-hover overflow-hidden z-1 round-10">
+                                    <img src="assets/img/products/product-4.jpg" alt="Image" class="round-10 transition">
+                                    <div class="product-action d-flex flex-wrap align-items-center justify-content-center">
+                                        <a href="product-single.html" class="btn style-seven fw-semibold position-relative round-oval" type="submit">Shop Now<span class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img src="assets/img/icons/right-arrow-black.svg" alt="Icon"></span></a>
+                                        <button class="add-to-cart border-0 d-flex flex-column align-items-center justify-content-center rounded-circle text-white fs-18"><i class="ri-shopping-cart-line"></i></button>
+                                        <button class="add-to-wishlist border-0 d-flex flex-column align-items-center justify-content-center rounded-circle text-white fs-18"><i class="ri-poker-hearts-line"></i></button>
+                                    </div>
+                                </div>
+                                <div class="product-info d-flex flex-wrap justify-content-between">
+                                    <div class="product-title">
+                                        <h3 class="fs-18 fw-semibold mb-0"><a href="product-single.html" class="text-title link-hover-primary">Half robot panda</a></h3>
+                                        <span class="text_primary fw-semibold">$30.00</span>
+                                    </div>
+                                    <ul class="rating list-unstyled mb-0">
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                        <li><img src="assets/img/icons/star-small.svg" alt="Icon"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Related products Section End -->
+
+                <!-- Footer Section Start -->
+                <footer class="footer-area style-one bg-black position-relative z-1 pt-130">
+                    <div class="container style-one">
+                        <div class="row justify-content-center mb-40">
+                            <div class="col-lg-2 col-md-6">
+                                <div class="footer-widget mb-30">
+                                    <a href="index.html" class="logo"><img src="assets/img/logo-white.png" alt="Logo"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="footer-widget mb-30 ps-xxl-5 ms-xxl-1">
+                                    <h3 class="footer-widget-title text-white fs-18 fw-semibold">Quick Links</h3>
+                                    <ul class="footer-menu list-unstyled mb-0">
+                                        <li><a href="about-us.html">Features</a></li>
+                                        <li><a href="about-us.html">About</a></li>
+                                        <li><a href="testimonials.html">Testimonials</a></li>
+                                        <li><a href="pricing-plan.html">Pricing</a></li>
+                                        <li><a href="blog-right-sidebar.html">Blog</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 ps-xxl-0 pe-xxl-5 pe-lg-4">
+                                <div class="footer-widget mb-30">
+                                    <h3 class="footer-widget-title text-white fs-18 fw-semibold">Address</h3>
+                                    <ul class="contact-info list-unstyled mb-0">
+                                        <li class="position-relative">
+                                            <img src="assets/img/icons/pin-small.svg" alt="Icon">
+                                            <span class="text-white fw-medium">Address :</span> 952 Bad Hill St, Asheville, NC 28803, USA
+                                        </li>
+                                        <li class="position-relative">
+                                            <img src="assets/img/icons/mail-small.svg" alt="Icon">
+                                            <span class="text-white fw-medium d-block">Email :</span>
+                                            <a href="mailto:contact@aixio.com">contact@aixio.com</a>
+                                        </li>
+                                        <li class="position-relative">
+                                            <img src="assets/img/icons/phone-small.svg" alt="Icon">
+                                            <span class="text-white fw-medium d-block">Phone :</span> 
+                                            <a href="tel:96768678869">+96 76867 8869</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 ps-xxl-4 pe-xxl-1">
+                                <div class="footer-widget mb-30">
+                                    <h3 class="text-white fs-20 font-secondary fw-medium mb-12">Subscribe To Our Newsletter</h3>
+                                    <form action="#" class="newsletter-form position-relative">
+                                        <input type="email" class="fs-15 w-100 bg-transparent text-white outline-0" placeholder="Enter Your Email">
+                                        <button class="position-absolute bg-transparent border-0 end-0"><img src="assets/img/icons/plane-small.svg" alt="Icon"></button>
+                                    </form>
+                                    <div class="post-share d-flex flex-wrap align-items-center">
+                                        <span class="text-white fw-medium me-2">Follow Us :</span>
+                                        <ul class="social-profile style-one list-unstyled mb-0">
+                                            <li><a href="https://www.facebook.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-facebook-fill"></i></a></li>
+                                            <li><a href="https://x.com/?lang=en" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-twitter-x-line"></i></a></li>
+                                            <li><a href="https://www.instagram.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-instagram-line"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-linkedin-fill"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom position-relative overflow-hidden z-1">
+                        <div class="container-fluid position-relative px-xxl-4">
+                            <img src="assets/img/logo-large.png" alt="Logo">
+                            <p class="copyright-text position-absolute bg_primary round-oval d-inline-block text-white text-center mb-0"><i class="ri-copyright-line"></i><span class="text_secondary fw-semibold">Aixio </span> is Proudly Owned by <a href="https://hibotheme.com" target="_blank" class="link style-one fw-semibold">HiboTheme</a></p>
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer End -->
+
+            </div>
+        </div>
+        <!-- Back to Top -->
+        <div id="progress-wrap" class="progress-wrap style-one">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+              <path id="progress-path" d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+            </svg>
+        </div>
+
+        <!-- Link of JS files -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/megamenu.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/fslightbox.js"></script>
+        <script src="assets/js/gsap.min.js"></script>
+        <script src="assets/js/scrollTrigger.min.js"></script>
+        <script src="assets/js/lenis.min.js"></script>
+        <script src="assets/js/scrollToPlugin.js"></script>
+        <script src="assets/js/SplitText.min.js"></script>
+        <script src="assets/js/customEase.js"></script>
+        <script src="assets/js/scrollcue.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
