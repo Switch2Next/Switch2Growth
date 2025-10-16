@@ -1,394 +1,499 @@
 <!DOCTYPE html>
 <html lang="zxx">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!-- Link of CSS files -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        <link rel="stylesheet" href="assets/css/scrollcue.min.css">
-        <link rel="stylesheet" href="assets/css/remixicon.css">
-        <link rel="stylesheet" href="assets/css/header.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/footer.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        <link rel="stylesheet" href="assets/css/dark-theme.css">
-        
-        <title>Aixio - Technology & AI Startup HTML Template</title>
-        <link rel="icon" type="image/png" href="assets/img/favicon.png">
-    </head>
-    <body>
 
-       <!--  Preloader Start -->
-        <div class="preloader-area" id="preloader">
-            <div class="spinner">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Link of CSS files -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="static/css/scrollcue.min.css">
+    <link rel="stylesheet" href="static/css/remixicon.css">
+    <link rel="stylesheet" href="static/css/header.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/footer.css">
+    <link rel="stylesheet" href="static/css/responsive.css">
+    <link rel="stylesheet" href="static/css/dark-theme.css">
+
+    <title>Aixio - Technology & AI Startup HTML Template</title>
+    <link rel="icon" type="image/png" href="static/img/favicon.png">
+</head>
+
+<body>
+
+    <!--  Preloader Start -->
+    <div class="preloader-area" id="preloader">
+        <div class="spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <!--  Preloader End -->
+    </div>
+    <!--  Preloader End -->
 
-        <!-- Theme Switcher Start -->
-        <div class="switch-theme-mode">
-            <label id="switch" class="switch">
-                <input type="checkbox" onchange="toggleTheme()" id="slider">
-                <span class="slider round"></span>
-            </label>
-        </div>
-        <!-- Theme Switcher End -->
+    <!-- Theme Switcher Start -->
+    <div class="switch-theme-mode">
+        <label id="switch" class="switch">
+            <input type="checkbox" onchange="toggleTheme()" id="slider">
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <!-- Theme Switcher End -->
 
-        <!-- Custom Cursor -->
-        <div class="cursor"><span class="cursor-text"></span></div>
-        <div class="cursor-inner"></div>
+    <!-- Custom Cursor -->
+    <div class="cursor"><span class="cursor-text"></span></div>
+    <div class="cursor-inner"></div>
 
-        <div id="smooth-wrapper">
-            <div id="smooth-content">
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
 
-                <!-- Navbar Start -->
-                <div class="navbar-area style-two position-relative" id="navbar">
-                    <div class="container-fluid">
-                        <div class="navbar-wrapper d-flex justify-content-between align-items-center">
-                            <a href="index.html" class="navbar-brand">
-                                <img src="assets/img/logo.png" alt="Logo" class="logo-light">
-                                <img src="assets/img/logo-white.png" alt="Logo" class="logo-dark">
-                            </a>
-                            <div class="menu-area mx-auto">
-                                <div class="overlay"></div>
-                                <nav class="menu">
-                                    <div class="menu-mobile-header">
-                                        <button type="button" class="menu-mobile-arrow bg-transparent border-0"><i class="ri-arrow-left-s-line"></i></button>
-                                        <div class="menu-mobile-title"></div>
-                                        <button type="button" class="menu-mobile-close bg-transparent border-0"><i class="ri-close-line"></i></button>
-                                    </div>
-                                    <ul class="menu-section p-0 mb-0 lh-1">
-                                        <li class="menu-item-has-children">
-                                            <a href="javascript:void(0)">Home<i class="ri-arrow-down-s-fill"></i></a>
-                                            <ul class="menu-subs menu-column-1">
-                                                <li class="list-item">
-                                                    <a href="index.html">Home - AI SaaS Platform</a>
-                                                </li>
-                                                <li class="list-item">
-                                                    <a href="index-2.html">Home - AI Cyber Security Solutions</a>
-                                                </li>
-                                                <li class="list-item">
-                                                    <a href="index-3.html">Home - AI Robotics & Automation</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="javascript:void(0)">Pages<i class="ri-arrow-down-s-fill"></i></a>
-                                            <ul class="menu-subs menu-column-1">
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="javascript:void(0)">Services<i class="ri-arrow-right-s-fill"></i></a>
-                                                    <ul class="menu-subs menu-column-1">
-                                                        <li><a href="services.html">Services</a></li>
-                                                        <li><a href="service-details.html">Service Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="javascript:void(0)">Careers<i class="ri-arrow-right-s-fill"></i></a>
-                                                    <ul class="menu-subs menu-column-1">
-                                                        <li><a href="careers.html">Careers</a></li>
-                                                        <li><a href="career-single.html">Career Single</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="testimonials.html">Testimonials</a></li>
-                                                <li><a href="pricing-plan.html">Pricing Plan</a></li>
-                                                <li><a href="faq.html">FAQ</a></li>
-                                                <li><a href="terms-conditions.html">Terms & Conditions</a></li>
-                                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                                                <li><a href="error-404.html">Error 404</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="javascript:void(0)">Projects<i class="ri-arrow-down-s-fill"></i></a>
-                                            <ul class="menu-subs menu-column-1">
-                                                <li><a href="projects.html">Projects</a></li>
-                                                <li><a href="project-single.html">Project Single</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="javascript:void(0)">Shop<i class="ri-arrow-down-s-fill"></i></a>
-                                            <ul class="menu-subs menu-column-1">
-                                                <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-                                                <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                                <li><a href="shop-grid.html">Shop Grid</a></li>
-                                                <li><a href="product-single.html">Product Single</a></li>
-                                                <li><a href="cart.html">Cart</a></li>
-                                                <li><a href="wishlist.html">Wishlist</a></li>
-                                                <li><a href="checkout.html">Checkout</a></li>
-                                                <li><a href="login.html">Login</a></li>
-                                                <li><a href="register.html">Register</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="javascript:void(0)">Blog<i class="ri-arrow-down-s-fill"></i></a>
-                                            <ul class="menu-subs menu-column-1">
-                                                <li class="menu-item-has-children"><a href="javascript:void(0)">Blog Layout<i class="ri-arrow-right-s-fill"></i></a>
-                                                    <ul class="menu-subs menu-column-1">
-                                                        <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                                        <li><a href="blog-grid.html">Blog Grid</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children"><a href="javascript:void(0)">Blog Single Layout<i class="ri-arrow-right-s-fill"></i></a>
-                                                    <ul class="menu-subs menu-column-1">
-                                                        <li><a href="blog-single-left-sidebar.html">Blog Single Left Sidebar</a></li>
-                                                        <li><a href="blog-single-right-sidebar.html">Blog Single Right Sidebar</a></li>
-                                                        <li><a href="blog-single-no-sidebar.html">Blog Single No Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children"><a href="javascript:void(0)">Others<i class="ri-arrow-right-s-fill"></i></a>
-                                                    <ul class="menu-subs menu-column-1">
-                                                        <li><a href="posts-by-author.html">Posts By Author</a></li>
-                                                        <li><a href="posts-by-date.html">Posts By Date</a></li>
-                                                        <li><a href="posts-by-category.html">Posts By Category</a></li>
-                                                        <li><a href="posts-by-tag.html">Posts By Tag</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html" class="active">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div class="other-options d-flex flex-wrap align-items-center justify-content-end">
-                                <div class="option-item">
-                                    <div class="d-flex flex-wrap align-items-center">
-                                        <div class="mobile-options position-relative d-lg-none me-3">
-                                            <button class="dropdown-toggle  text-center bg-transparent border-0 p-0 transition" type="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                                <i class="ri-more-fill"></i>
-                                            </button>
-                                            <div class="dropdown-menu dropdown-menu-centered mobile-option-list top-1 border-0" data-bs-popper="static">
-                                                <a href="login.html" class="btn style-three fw-semibold position-relative round-oval">Get In Touch<span class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img src="assets/img/icons/right-arrow-white.svg" alt="Icon"></span></a>
-                                            </div>
-                                        </div>
-                                        <button  class="search-btn bg-transparent border-0 d-flex flex-wrap align-items-center dropdown-toggle text-center p-0 transition" type="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                                <img src="assets/img/icons/search.svg" alt="Search Icon">
+            <!-- Navbar Start -->
+            <div class="navbar-area style-two position-relative" id="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-wrapper d-flex justify-content-between align-items-center">
+                        <a href="index.html" class="navbar-brand">
+                            <img src="static/img/logo.png" alt="Logo" class="logo-light">
+                            <img src="static/img/logo-white.png" alt="Logo" class="logo-dark">
+                        </a>
+                        <div class="menu-area mx-auto">
+                            <div class="overlay"></div>
+                            <nav class="menu">
+                                <div class="menu-mobile-header">
+                                    <button type="button" class="menu-mobile-arrow bg-transparent border-0"><i
+                                            class="ri-arrow-left-s-line"></i></button>
+                                    <div class="menu-mobile-title"></div>
+                                    <button type="button" class="menu-mobile-close bg-transparent border-0"><i
+                                            class="ri-close-line"></i></button>
+                                </div>
+                                <ul class="menu-section p-0 mb-0 lh-1">
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0)">Home<i class="ri-arrow-down-s-fill"></i></a>
+                                        <ul class="menu-subs menu-column-1">
+                                            <li class="list-item">
+                                                <a href="index.html">Home - AI SaaS Platform</a>
+                                            </li>
+                                            <li class="list-item">
+                                                <a href="index-2.html">Home - AI Cyber Security Solutions</a>
+                                            </li>
+                                            <li class="list-item">
+                                                <a href="index-3.html">Home - AI Robotics & Automation</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0)">Pages<i class="ri-arrow-down-s-fill"></i></a>
+                                        <ul class="menu-subs menu-column-1">
+                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li class="menu-item-has-children">
+                                                <a href="javascript:void(0)">Services<i
+                                                        class="ri-arrow-right-s-fill"></i></a>
+                                                <ul class="menu-subs menu-column-1">
+                                                    <li><a href="services.html">Services</a></li>
+                                                    <li><a href="service-details.html">Service Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="javascript:void(0)">Careers<i
+                                                        class="ri-arrow-right-s-fill"></i></a>
+                                                <ul class="menu-subs menu-column-1">
+                                                    <li><a href="careers.html">Careers</a></li>
+                                                    <li><a href="career-single.html">Career Single</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="team.html">Team</a></li>
+                                            <li><a href="testimonials.html">Testimonials</a></li>
+                                            <li><a href="pricing-plan.html">Pricing Plan</a></li>
+                                            <li><a href="faq.html">FAQ</a></li>
+                                            <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                            <li><a href="error-404.html">Error 404</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0)">Projects<i class="ri-arrow-down-s-fill"></i></a>
+                                        <ul class="menu-subs menu-column-1">
+                                            <li><a href="projects.html">Projects</a></li>
+                                            <li><a href="project-single.html">Project Single</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0)">Shop<i class="ri-arrow-down-s-fill"></i></a>
+                                        <ul class="menu-subs menu-column-1">
+                                            <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
+                                            <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
+                                            <li><a href="shop-grid.html">Shop Grid</a></li>
+                                            <li><a href="product-single.html">Product Single</a></li>
+                                            <li><a href="cart.html">Cart</a></li>
+                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="login.html">Login</a></li>
+                                            <li><a href="register.html">Register</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="javascript:void(0)">Blog<i class="ri-arrow-down-s-fill"></i></a>
+                                        <ul class="menu-subs menu-column-1">
+                                            <li class="menu-item-has-children"><a href="javascript:void(0)">Blog
+                                                    Layout<i class="ri-arrow-right-s-fill"></i></a>
+                                                <ul class="menu-subs menu-column-1">
+                                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                                    <li><a href="blog-grid.html">Blog Grid</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="javascript:void(0)">Blog Single
+                                                    Layout<i class="ri-arrow-right-s-fill"></i></a>
+                                                <ul class="menu-subs menu-column-1">
+                                                    <li><a href="blog-single-left-sidebar.html">Blog Single Left
+                                                            Sidebar</a></li>
+                                                    <li><a href="blog-single-right-sidebar.html">Blog Single Right
+                                                            Sidebar</a></li>
+                                                    <li><a href="blog-single-no-sidebar.html">Blog Single No Sidebar</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="javascript:void(0)">Others<i
+                                                        class="ri-arrow-right-s-fill"></i></a>
+                                                <ul class="menu-subs menu-column-1">
+                                                    <li><a href="posts-by-author.html">Posts By Author</a></li>
+                                                    <li><a href="posts-by-date.html">Posts By Date</a></li>
+                                                    <li><a href="posts-by-category.html">Posts By Category</a></li>
+                                                    <li><a href="posts-by-tag.html">Posts By Tag</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html" class="active">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="other-options d-flex flex-wrap align-items-center justify-content-end">
+                            <div class="option-item">
+                                <div class="d-flex flex-wrap align-items-center">
+                                    x <div class="mobile-options position-relative d-lg-none me-3">
+                                        <button
+                                            class="dropdown-toggle  text-center bg-transparent border-0 p-0 transition"
+                                            type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                            <i class="ri-more-fill"></i>
                                         </button>
-                                        <div class="search-dropdown dropdown-menu dropdown-menu-right top-1 border-0" data-bs-popper="static">
-                                             <form class="search-popup position-relative" action="#">
-                                                <input type="search" class="form-control text-para" placeholder="Search Here....">
-                                                <button type="submit" class="position-absolute top-0 end-0 h-100 border-0 bg-transparent d-flex flex-column align-items-center justify-content-center"><i class="ri-search-2-line"></i></button>
-                                            </form>
+                                        <div class="dropdown-menu dropdown-menu-centered mobile-option-list top-1 border-0"
+                                            data-bs-popper="static">
+                                            <a href="login.html"
+                                                class="btn style-three fw-semibold position-relative round-oval">Get In
+                                                Touch<span
+                                                    class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img
+                                                        src="static/img/icons/right-arrow-white.svg"
+                                                        alt="Icon"></span></a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="option-item d-lg-block d-none">
-                                    <a href="contact.html" class="btn style-three fw-semibold position-relative round-oval">Get In Touch<span class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img src="assets/img/icons/right-arrow-white.svg" alt="Icon"></span></a>
-                                </div>
-                                <div class="option-item d-lg-none">
-                                    <button type="button" class="menu-mobile-trigger">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
+                                    <button
+                                        class="search-btn bg-transparent border-0 d-flex flex-wrap align-items-center dropdown-toggle text-center p-0 transition"
+                                        type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                        <img src="static/img/icons/search.svg" alt="Search Icon">
                                     </button>
+                                    <div class="search-dropdown dropdown-menu dropdown-menu-right top-1 border-0"
+                                        data-bs-popper="static">
+                                        <form class="search-popup position-relative" action="#">
+                                            <input type="search" class="form-control text-para"
+                                                placeholder="Search Here....">
+                                            <button type="submit"
+                                                class="position-absolute top-0 end-0 h-100 border-0 bg-transparent d-flex flex-column align-items-center justify-content-center"><i
+                                                    class="ri-search-2-line"></i></button>
+                                        </form>
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="option-item d-lg-block d-none">
+                                <a href="contact.html"
+                                    class="btn style-three fw-semibold position-relative round-oval">Get Touch<span
+                                        class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img
+                                            src="static/img/icons/right-arrow-white.svg" alt="Icon"></span></a>
+                            </div>
+                            <div class="option-item d-lg-none">
+                                <button type="button" class="menu-mobile-trigger">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Navbar End -->
-
-                <!-- Breadcrumb Start -->
-                <div class="breadcrumb-area bg-f round-20 position-relative z-1">
-                    <div class="container text-center">
-                        <ul class="br-menu text-center bg_secondary d-inline-block list-unstyled mb-15">
-                            <li class="position-relative fs-13 fw-semibold ls-1 d-inline-block"><a href="index.html">HOME</a></li>
-                            <li class="position-relative fs-13 fw-semibold ls-1 d-inline-block">CONTACT US</li>
-                        </ul>
-                        <h2 class="section-title style-one fw-medium font-secondary text-black text-center mb-6">Contact Us</h2>
-                    </div>
-                </div>
-                <!-- Breadcrumb End -->
-
-                <!-- Contact Section Start -->
-                <div class="container style-one pt-130">
-                    <div class="row">
-                        <div class="col-lg-5 mb-md-30">
-                             <div class="comment-form-box round-10">
-                                <form action="#" class="comment-form style-one round-10" id="cmt-form">
-                                    <h3 class="fs-20 fw-semibold mb-18"> Get In Touch</h3>
-                                    <div class="form-group position-relative mb-20">
-                                        <input type="text" required class="w-100 ht-52 round-5 bg-white text-para border-0" placeholder="Name">
-                                    </div>
-                                    <div class="form-group mb-20">
-                                        <input type="email" placeholder="Email" required class="w-100 ht-52 round-5 bg-white text-para border-0">
-                                    </div>
-                                    <div class="form-group mb-20">
-                                        <input type="number" placeholder="Phone" required class="w-100 ht-52 round-5 bg-white text-para border-0">
-                                    </div>
-                                    <div class="form-group mb-20">
-                                        <input type="text" placeholder="Subject" required class="w-100 ht-52 round-5 bg-white text-para border-0">
-                                    </div>
-                                    <div class="form-group mb-20">
-                                        <textarea name="messages" id="messages" cols="30" rows="10" placeholder="Comment"  class="w-100 round-20 bg-white text-para border-0 resize-0"></textarea>
-                                    </div>
-                                    <div class="form-check checkbox style-two mb-25">
-                                        <input class="form-check-input" type="checkbox" id="test_2"
-                                        >
-                                        <label class="form-check-label" for="test_2">
-                                           I've read & agreed to <a href="terms-conditions.html" class="text_primary link-hover-primary">Terms & Conditions</a> & <a href="privacy-policy.html">Privacy Policy</a>
-                                        </label>
-                                    </div>
-                                    <button class="btn style-three d-block w-100 fw-semibold position-relative round-oval" type="submit">Send Message<span class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img src="assets/img/icons/right-arrow-white.svg" alt="Icon"></span></button>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-lg-7 ps-xxl-5">
-                            <div class="contact-content ps-xxl-5 ms-xxl-3 mb-60">
-                                <h2 class="section-title style-one font-secondary fw-medium text-title mb-18">We Are Always Ready To Help You And Answer Your Questions</h2>
-                                <p class="mb-45">Pacific hake false trevally queen parrotfish black prickleback mosshead warbonnet sweeper! Greenling sleeper.</p>
-                                <div class="contact-card-wrap style-one d-flex flex-wrap position-relative">
-                                    <div class="contact-card style-two d-flex flex-wrap">
-                                        <span class="contact-icon d-flex flex-column align-items-center justify-content-center rounded-circle bg_secondary"><img src="assets/img/icons/phone-black.svg" alt="Icon"></span>
-                                        <div>
-                                            <h6 class="fs-16 fw-semibold mb-12">Call Center</h6>
-                                            <a href="tel:00654675869879" class="d-block text-para hover-text-primary">006 546 75869 879</a>
-                                            <a href="tel:12300654675869" class="d-block text-para hover-text-primary">+ (123) 006 546 75869</a>
-                                        </div>
-                                    </div>
-                                    <div class="contact-card style-two d-flex flex-wrap">
-                                        <span class="contact-icon d-flex flex-column align-items-center justify-content-center rounded-circle bg_secondary"><img src="assets/img/icons/pin-black.svg" alt="Icon"></span>
-                                        <div>
-                                            <h6 class="fs-16 fw-semibold mb-12">Our Location</h6>
-                                            <p>USA, New York – 1060 Str. First Avenue 1</p>
-                                        </div>
-                                    </div>
-                                    <div class="contact-card style-two d-flex flex-wrap">
-                                        <span class="contact-icon d-flex flex-column align-items-center justify-content-center rounded-circle bg_secondary"><img src="assets/img/icons/pin-black.svg" alt="Icon"></span>
-                                        <div>
-                                            <h6 class="fs-16 fw-semibold mb-12">Email</h6>
-                                            <a href="mailto:info@aixio.com" class="d-block text-para hover-text-primary">info@aixio.com</a>
-                                            <a href="mailto:help@aixio.com" class="d-block text-para hover-text-primary">help@aixio.com</a>
-                                        </div>
-                                    </div>
-                                    <div class="contact-card style-two">
-                                        <h6 class="fs-16 fw-semibold mb-25 d-block">Follow Us</h6>
-                                        <ul class="social-profile style-four list-unstyled mb-0">
-                                            <li><a href="https://www.facebook.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-facebook-fill"></i></a></li>
-                                            <li><a href="https://x.com/?lang=en" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-twitter-x-line"></i></a></li>
-                                            <li><a href="https://www.instagram.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-instagram-line"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-linkedin-fill"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <img src="assets/img/contact-img.png" alt="Image" class="contact-img d-block mx-auto">
-                        </div>
-                    </div>
-                </div>
-                <!-- Contact Section End -->
-
-                <div class="map-area position-relative z-1">
-                    <div class="container">
-                        <div class="comp-map style-two w-100 round-10">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8385385572983!2d144.95358331584498!3d-37.81725074201705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4dd5a05d97%3A0x3e64f855a564844d!2s121%20King%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sbd!4v1612419490850!5m2!1sen!2sbd">
-                            </iframe>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Section Start -->
-                <footer class="footer-area style-three bg-black position-relative z-1 pt-130">
-                    <div class="container style-one">
-                        <div class="row justify-content-center mb-40">
-                            <div class="col-lg-2 col-md-6">
-                                <div class="footer-widget mb-30">
-                                    <a href="index.html" class="logo"><img src="assets/img/logo-white.png" alt="Logo"></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="footer-widget mb-30 ps-xxl-5 ms-xxl-1">
-                                    <h3 class="footer-widget-title text-white fs-18 fw-semibold">Quick Links</h3>
-                                    <ul class="footer-menu list-unstyled mb-0">
-                                        <li><a href="about-us.html">Features</a></li>
-                                        <li><a href="about-us.html">About</a></li>
-                                        <li><a href="testimonials.html">Testimonials</a></li>
-                                        <li><a href="pricing-plan.html">Pricing</a></li>
-                                        <li><a href="blog-right-sidebar.html">Blog</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 ps-xxl-0 pe-xxl-5 pe-lg-4">
-                                <div class="footer-widget mb-30">
-                                    <h3 class="footer-widget-title text-white fs-18 fw-semibold">Address</h3>
-                                    <ul class="contact-info list-unstyled mb-0">
-                                        <li class="position-relative">
-                                            <img src="assets/img/icons/pin-small.svg" alt="Icon">
-                                            <span class="text-white fw-medium">Address :</span> 952 Bad Hill St, Asheville, NC 28803, USA
-                                        </li>
-                                        <li class="position-relative">
-                                            <img src="assets/img/icons/mail-small.svg" alt="Icon">
-                                            <span class="text-white fw-medium d-block">Email :</span>
-                                            <a href="mailto:contact@aixio.com">contact@aixio.com</a>
-                                        </li>
-                                        <li class="position-relative">
-                                            <img src="assets/img/icons/phone-small.svg" alt="Icon">
-                                            <span class="text-white fw-medium d-block">Phone :</span> 
-                                            <a href="tel:96768678869">+96 76867 8869</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 ps-xxl-4 pe-xxl-1">
-                                <div class="footer-widget mb-30">
-                                    <h3 class="text-white fs-20 font-secondary fw-medium mb-12">Subscribe To Our Newsletter</h3>
-                                    <form action="#" class="newsletter-form position-relative">
-                                        <input type="email" class="fs-15 w-100 bg-transparent text-white outline-0" placeholder="Enter Your Email">
-                                        <button class="position-absolute bg-transparent border-0 end-0"><img src="assets/img/icons/plane-small.svg" alt="Icon"></button>
-                                    </form>
-                                    <div class="post-share d-flex flex-wrap align-items-center">
-                                        <span class="text-white fw-medium me-2">Follow Us :</span>
-                                        <ul class="social-profile style-one list-unstyled mb-0">
-                                            <li><a href="https://www.facebook.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-facebook-fill"></i></a></li>
-                                            <li><a href="https://x.com/?lang=en" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-twitter-x-line"></i></a></li>
-                                            <li><a href="https://www.instagram.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-instagram-line"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/" target="_blank" class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i class="ri-linkedin-fill"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-bottom position-relative overflow-hidden z-1">
-                        <div class="container-fluid position-relative px-xxl-4">
-                            <img src="assets/img/logo-large.png" alt="Logo">
-                            <p class="copyright-text position-absolute bg_primary round-oval d-inline-block text-white text-center mb-0"><i class="ri-copyright-line"></i><span class="text_secondary fw-semibold">Aixio </span> is Proudly Owned by <a href="https://hibotheme.com" target="_blank" class="link style-one fw-semibold">HiboTheme</a></p>
-                        </div>
-                    </div>
-                </footer>
-                <!-- Footer End -->
-
             </div>
-        </div>
-        <!-- Back to Top -->
-        <div id="progress-wrap" class="progress-wrap style-one">
-            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-              <path id="progress-path" d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-            </svg>
-        </div>
+            <!-- Navbar End -->
 
-        <!-- Link of JS files -->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/megamenu.js"></script>
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <script src="assets/js/fslightbox.js"></script>
-        <script src="assets/js/gsap.min.js"></script>
-        <script src="assets/js/scrollTrigger.min.js"></script>
-        <script src="assets/js/lenis.min.js"></script>
-        <script src="assets/js/scrollToPlugin.js"></script>
-        <script src="assets/js/SplitText.min.js"></script>
-        <script src="assets/js/customEase.js"></script>
-        <script src="assets/js/scrollcue.min.js"></script>
-        <script src="assets/js/main.js"></script>
-    </body>
+            <!-- Breadcrumb Start -->
+            <div class="breadcrumb-area bg-f round-20 position-relative z-1">
+                <div class="container text-center">
+                    <ul class="br-menu text-center bg_secondary d-inline-block list-unstyled mb-15">
+                        <li class="position-relative fs-13 fw-semibold ls-1 d-inline-block"><a
+                                href="index.html">HOME</a></li>
+                        <li class="position-relative fs-13 fw-semibold ls-1 d-inline-block">CONTACT US</li>
+                    </ul>
+                    <h2 class="section-title style-one fw-medium font-secondary text-black text-center mb-6">Contact Us
+                    </h2>
+                </div>
+            </div>
+            <!-- Breadcrumb End -->
+
+            <!-- Contact Section Start -->
+            <div class="container style-one pt-130">
+                <div class="row">
+                    <div class="col-lg-5 mb-md-30">
+                        <div class="comment-form-box round-10">
+                            <form class="comment-form style-one round-10" id="cmt-form">
+                                <h3 class="fs-20 fw-semibold mb-18"> Get In Touch</h3>
+                                <div class="form-group position-relative mb-20">
+                                    <input type="text" name="name" id="name" required class="w-100 ht-52 round-5 bg-white text-para border-0"
+                                        placeholder="Name">
+                                </div>
+                                <div class="form-group mb-20">
+                                    <input type="email" name="email" id="email" placeholder="Email" required
+                                        class="w-100 ht-52 round-5 bg-white text-para border-0">
+                                </div>
+                                <div class="form-group mb-20">
+                                    <input type="tel" name="phone" id="phone" placeholder="Phone" required
+                                        class="w-100 ht-52 round-5 bg-white text-para border-0">
+                                </div>
+                                <div class="form-group mb-20">
+                                    <input type="text" name="subject" id="subject" placeholder="Subject" required
+                                        class="w-100 ht-52 round-5 bg-white text-para border-0">
+                                </div>
+                                <div class="form-group mb-20">
+                                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Comment"
+                                        class="w-100 round-20 bg-white text-para border-0 resize-0"></textarea>
+                                </div>
+                                <div class="form-check checkbox style-two mb-25">
+                                    <input class="form-check-input" type="checkbox" id="test_2" required>
+                                    <label class="form-check-label" for="test_2">
+                                        I've read & agreed to <a href="terms-conditions.html"
+                                            class="text_primary link-hover-primary">Terms & Conditions</a> & <a
+                                            href="privacy-policy.html">Privacy Policy</a>
+                                    </label>
+                                </div>
+                                <button class="btn style-three d-block w-100 fw-semibold position-relative round-oval"
+                                    type="button" onclick="sendEmail()">Send Message<span
+                                        class="position-absolute top-0 end-0 h-100 d-flex flex-column align-items-center justify-content-center"><img
+                                            src="static/img/icons/right-arrow-white.svg" alt="Icon"></span></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 ps-xxl-5">
+                        <div class="contact-content ps-xxl-5 ms-xxl-3 mb-60">
+                            <h2 class="section-title style-one font-secondary fw-medium text-title mb-18">We Are Always
+                                Ready To Help You And Answer Your Questions</h2>
+                            <p class="mb-45">Pacific hake false trevally queen parrotfish black prickleback mosshead
+                                warbonnet sweeper! Greenling sleeper.</p>
+                            <div class="contact-card-wrap style-one d-flex flex-wrap position-relative">
+                                <div class="contact-card style-two d-flex flex-wrap">
+                                    <span
+                                        class="contact-icon d-flex flex-column align-items-center justify-content-center rounded-circle bg_secondary"><img
+                                            src="static/img/icons/phone-black.svg" alt="Icon"></span>
+                                    <div>
+                                        <h6 class="fs-16 fw-semibold mb-12">Call Center</h6>
+                                        <a href="tel:+91 91000 92229" class="d-block text-para hover-text-primary">006
+                                            +91 91000 92229</a>
+                                    </div>
+                                </div>
+                                <div class="contact-card style-two d-flex flex-wrap">
+                                    <span
+                                        class="contact-icon d-flex flex-column align-items-center justify-content-center rounded-circle bg_secondary"><img
+                                            src="static/img/icons/pin-black.svg" alt="Icon"></span>
+                                    <div>
+                                        <h6 class="fs-16 fw-semibold mb-12">Our Location</h6>
+                                        <p>USA, New York – 1060 Str. First Avenue 1</p>
+                                    </div>
+                                </div>
+                                <div class="contact-card style-two d-flex flex-wrap">
+                                    <span
+                                        class="contact-icon d-flex flex-column align-items-center justify-content-center rounded-circle bg_secondary"><img
+                                            src="static/img/icons/pin-black.svg" alt="Icon"></span>
+                                    <div>
+                                        <h6 class="fs-16 fw-semibold mb-12">Email</h6>
+                                        <a href="mailto:info@aixio.com"
+                                            class="d-block text-para hover-text-primary">info@aixio.com</a>
+                                        <a href="mailto:help@aixio.com"
+                                            class="d-block text-para hover-text-primary">help@aixio.com</a>
+                                    </div>
+                                </div>
+                                <div class="contact-card style-two">
+                                    <h6 class="fs-16 fw-semibold mb-25 d-block">Follow Us</h6>
+                                    <ul class="social-profile style-four list-unstyled mb-0">
+                                        <li><a href="https://www.facebook.com/" target="_blank"
+                                                class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i
+                                                    class="ri-facebook-fill"></i></a></li>
+                                        <li><a href="https://x.com/?lang=en" target="_blank"
+                                                class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i
+                                                    class="ri-twitter-x-line"></i></a></li>
+                                        <li><a href="https://www.instagram.com/" target="_blank"
+                                                class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i
+                                                    class="ri-instagram-line"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/" target="_blank"
+                                                class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i
+                                                    class="ri-linkedin-fill"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="static/img/contact-img.png" alt="Image" class="contact-img d-block mx-auto">
+                    </div>
+                </div>
+            </div>
+            <!-- Contact Section End -->
+
+            <div class="map-area position-relative z-1">
+                <div class="container">
+                    <div class="comp-map style-two w-100 round-10">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8385385572983!2d144.95358331584498!3d-37.81725074201705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4dd5a05d97%3A0x3e64f855a564844d!2s121%20King%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sbd!4v1612419490850!5m2!1sen!2sbd">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Section Start -->
+            <footer class="footer-area style-three bg-black position-relative z-1 pt-130">
+                <div class="container style-one">
+                    <div class="row justify-content-center mb-40">
+                        <div class="col-lg-2 col-md-6">
+                            <div class="footer-widget mb-30">
+                                <a href="index.html" class="logo"><img src="static/img/logo-white.png" alt="Logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget mb-30 ps-xxl-5 ms-xxl-1">
+                                <h3 class="footer-widget-title text-white fs-18 fw-semibold">Quick Links</h3>
+                                <ul class="footer-menu list-unstyled mb-0">
+                                    <li><a href="about-us.html">Features</a></li>
+                                    <li><a href="about-us.html">About</a></li>
+                                    <li><a href="testimonials.html">Testimonials</a></li>
+                                    <li><a href="pricing-plan.html">Pricing</a></li>
+                                    <li><a href="blog-right-sidebar.html">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 ps-xxl-0 pe-xxl-5 pe-lg-4">
+                            <div class="footer-widget mb-30">
+                                <h3 class="footer-widget-title text-white fs-18 fw-semibold">Address</h3>
+                                <ul class="contact-info list-unstyled mb-0">
+                                    <li class="position-relative">
+                                        <img src="static/img/icons/pin-small.svg" alt="Icon">
+                                        <span class="text-white fw-medium">Address :</span> 952 Bad Hill St, Asheville,
+                                        NC 28803, USA
+                                    </li>
+                                    <li class="position-relative">
+                                        <img src="static/img/icons/mail-small.svg" alt="Icon">
+                                        <span class="text-white fw-medium d-block">Email :</span>
+                                        <a href="mailto:contact@aixio.com">contact@aixio.com</a>
+                                    </li>
+                                    <li class="position-relative">
+                                        <img src="static/img/icons/phone-small.svg" alt="Icon">
+                                        <span class="text-white fw-medium d-block">Phone :</span>
+                                        <a href="tel:96768678869">+96 76867 8869</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 ps-xxl-4 pe-xxl-1">
+                            <div class="footer-widget mb-30">
+                                <h3 class="text-white fs-20 font-secondary fw-medium mb-12">Subscribe To Our Newsletter
+                                </h3>
+                                <form action="#" class="newsletter-form position-relative">
+                                    <input type="email" class="fs-15 w-100 bg-transparent text-white outline-0"
+                                        placeholder="Enter Your Email">
+                                    <button class="position-absolute bg-transparent border-0 end-0"><img
+                                            src="static/img/icons/plane-small.svg" alt="Icon"></button>
+                                </form>
+                                <div class="post-share d-flex flex-wrap align-items-center">
+                                    <span class="text-white fw-medium me-2">Follow Us :</span>
+                                    <ul class="social-profile style-one list-unstyled mb-0">
+                                        <li><a href="https://www.facebook.com/" target="_blank"
+                                                class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i
+                                                    class="ri-facebook-fill"></i></a></li>
+                                        <li><a href="https://x.com/?lang=en" target="_blank"
+                                                class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i
+                                                    class="ri-twitter-x-line"></i></a></li>
+                                        <li><a href="https://www.instagram.com/" target="_blank"
+                                                class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i
+                                                    class="ri-instagram-line"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/" target="_blank"
+                                                class="d-flex flex-column align-items-center justify-content-center rounded-circle"><i
+                                                    class="ri-linkedin-fill"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom position-relative overflow-hidden z-1">
+                    <div class="container-fluid position-relative px-xxl-4">
+                        <img src="static/img/logo-large.png" alt="Logo">
+                        <p
+                            class="copyright-text position-absolute bg_primary round-oval d-inline-block text-white text-center mb-0">
+                            <i class="ri-copyright-line"></i><span class="text_secondary fw-semibold">Aixio </span> is
+                            Proudly Owned by <a href="https://hibotheme.com" target="_blank"
+                                class="link style-one fw-semibold">HiboTheme</a></p>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer End -->
+
+        </div>
+    </div>
+    <!-- Back to Top -->
+    <div id="progress-wrap" class="progress-wrap style-one">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path id="progress-path" d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- Link of JS files -->
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/megamenu.js"></script>
+    <script src="static/js/swiper-bundle.min.js"></script>
+    <script src="static/js/fslightbox.js"></script>
+    <script src="static/js/gsap.min.js"></script>
+    <script src="static/js/scrollTrigger.min.js"></script>
+    <script src="static/js/lenis.min.js"></script>
+    <script src="static/js/scrollToPlugin.js"></script>
+    <script src="static/js/SplitText.min.js"></script>
+    <script src="static/js/customEase.js"></script>
+    <script src="static/js/scrollcue.min.js"></script>
+    <script src="static/js/main.js"></script>
+    <script>
+        function sendEmail() {
+            // Get form data
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            const checkbox = document.getElementById('test_2').checked;
+            
+            // Validate required fields
+            if (!name || !email || !phone || !subject || !checkbox) {
+                alert('Please fill in all required fields and accept the terms & conditions.');
+                return;
+            }
+            
+            // Create email body
+            const emailBody = `Name: ${name}%0D%0A` +
+                            `Email: ${email}%0D%0A` +
+                            `Phone: ${phone}%0D%0A` +
+                            `Subject: ${subject}%0D%0A%0D%0A` +
+                            `Message: ${message}`;
+            
+            // Create mailto link
+            const mailtoLink = `mailto:pavan29903@gmail.com?subject=${encodeURIComponent(subject)}&body=${emailBody}`;
+            
+            // Open email client
+            window.location.href = mailtoLink;
+        }
+    </script>
+</body>
+
 </html>
