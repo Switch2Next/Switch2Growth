@@ -2876,13 +2876,13 @@ body {
   background-image: url(../img/projects/project-2.jpg);
 }
 .project-card.style-one .project-bg.bg-3 {
-  background-image: url(../img/projects/project-3.jpg);
+  background-image: url(../img/projects/project-5.jpg);
 }
 .project-card.style-one .project-bg.bg-4 {
   background-image: url(../img/projects/project-4.jpg);
 }
 .project-card.style-one .project-bg.bg-5 {
-  background-image: url(../img/projects/project-5.jpg);
+  background-image: url(../img/projects/project-3.jpg);
 }
 .project-card.style-one .project-bg.bg-6 {
   background-image: url(../img/projects/project-6.jpg);
@@ -4432,10 +4432,10 @@ body {
   z-index: 0;
 }
 .team-card.style-one .team-member-bg.bg-1 {
-  background-image: url(../img/team/team-1.jpg);
+  background-image: url(../img/team/jeawant1.png);
 }
 .team-card.style-one .team-member-bg.bg-2 {
-  background-image: url(../img/team/team-2.jpg);
+  background-image: url(../img/team/kotesh1.jpg);
 }
 .team-card.style-one .team-member-bg.bg-3 {
   background-image: url(../img/team/team-3.jpg);
