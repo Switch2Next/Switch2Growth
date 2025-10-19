@@ -1,7 +1,11 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect
 
 app = Flask(__name__)
 
+
+@app.route('/')
+def root():
+    return redirect('/home')
 
 @app.route('/home')
 def home():  # put application's code here
@@ -23,19 +27,19 @@ def index2():
 def index3():
     return render_template("index-3.html")
 
-@app.route('/about-us.html')
+@app.route('/aboutus')
 def about():
     return render_template("about-us.html")
 
-@app.route('/services.html')
+@app.route('/services')
 def services():
     return render_template("services.html")
 
-@app.route('/service-details.html')
+@app.route('/service-details')
 def service_details():
     return render_template("service-details.html")
 
-@app.route('/careers.html')
+@app.route('/careers')
 def careers():
     return render_template("careers.html")
 
@@ -55,15 +59,15 @@ def testimonials():
 def pricing_plan():
     return render_template("pricing-plan.html")
 
-@app.route('/faq.html')
+@app.route('/faq')
 def faq():
     return render_template("faq.html")
 
-@app.route('/terms-conditions.html')
+@app.route('/terms-conditions')
 def terms_conditions():
     return render_template("terms-conditions.html")
 
-@app.route('/privacy-policy.html')
+@app.route('/privacy-policy')
 def privacy_policy():
     return render_template("privacy-policy.html")
 
@@ -71,11 +75,11 @@ def privacy_policy():
 def error_404():
     return render_template("error-404.html")
 
-@app.route('/projects.html')
+@app.route('/projects')
 def projects():
     return render_template("projects.html")
 
-@app.route('/project-single.html')
+@app.route('/project-single')
 def project_single():
     return render_template("project-single.html")
 
@@ -119,7 +123,7 @@ def register():
 def blog_left_sidebar():
     return render_template("blog-left-sidebar.html")
 
-@app.route('/blog-right-sidebar.html')
+@app.route('/blog-right-sidebar')
 def blog_right_sidebar():
     return render_template("blog-right-sidebar.html")
 
