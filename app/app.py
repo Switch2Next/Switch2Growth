@@ -7,6 +7,10 @@ app = Flask(__name__)
 def root():
     return redirect('/home')
 
+@app.route('/index')
+def index_redirect():
+    return redirect('/home')
+
 @app.route('/home')
 def home():  # put application's code here
     return render_template("index-3.html") #inside templates/
